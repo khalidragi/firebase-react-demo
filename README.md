@@ -1,4 +1,4 @@
-This project was made by [Web Dev بالعربي](https://khalidragi.com).
+This project was made by [Web Dev بالعربي](https://www.youtube.com/channel/UCiXXtRYzr_acEssKWYfgwNA).
 
 ## Budget Tracker
 
