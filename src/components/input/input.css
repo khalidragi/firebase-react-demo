@@ -1,0 +1,55 @@
+.input form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.input input {
+  font-size: 18px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+}
+input:-webkit-autofill {
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0 50px white inset;
+}
+
+.input input[type='text'] {
+  border-radius: 8px 0px 0px 8px;
+  flex: 1 1 100%;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input input[type='date'] {
+  border-radius: 0px;
+  min-width: 200px;
+  margin-right: 20px;
+}
+
+.input input[type='submit'] {
+  border-radius: 0px 8px 8px 0px;
+  cursor: pointer;
+  margin-left: 20px;
+  color: var(--dark);
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.4s;
+  background-color: var(--primary);
+}
+
+.input input[type='submit']:hover {
+  color: #fff;
+}
+
+.input label {
+  font-size: 18px;
+  color: gray;
+}

@@ -1,0 +1,43 @@
+.item {
+  display: flex;
+  width: 100%;
+  padding: 0.8rem 5rem;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--grey);
+  position: relative;
+}
+
+.item .income {
+  color: green;
+}
+
+.item .expense {
+  color: red;
+}
+
+.item__info {
+  display: flex;
+  align-items: center;
+}
+
+.item__info p {
+  padding-right: 3rem;
+  font-size: 1.1rem;
+}
+
+.item__title {
+  font-size: 1.2rem;
+}
+
+.item__delete {
+  position: absolute;
+  right: 0;
+  font-size: 1rem;
+  color: var(--alert);
+  transition: 0.4s;
+  text-transform: uppercase;
+  display: none;
+  margin-top: 5px;
+  cursor: pointer;
+  font-family: inherit;
+}

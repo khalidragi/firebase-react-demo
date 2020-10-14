@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.header__title {
+  letter-spacing: 2px;
+}
+
+.header__balance {
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 0.7rem 2rem;
+  background-color: var(--grey);
+  color: var(--light);
+  border-radius: 15px;
+  align-self: flex-start;
+}
